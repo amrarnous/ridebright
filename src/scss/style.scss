@@ -89,7 +89,7 @@ header {
             line-height: 1.6em;
         }
         a {
-            display: inline-flex;;
+            display: inline-flex;
             text-align: center;
             text-decoration: none;
             border-radius: 5px;
@@ -98,7 +98,7 @@ header {
                 font-weight: 600;
             }
             &.get-started {
-                padding: 10px;
+                padding: 15px;
                 background: $orange;
                 color: $white;
                 align-items: center;
@@ -107,11 +107,10 @@ header {
                     color: $white;
                     margin-left: 5px;
                 }
-                
             }
             &.watch-demo {
                 border: 2px solid $white-orange;
-                padding: 8px;
+                padding: 13px;
                 span {
                     color: $orange;
                     margin-left: 5px;
@@ -128,7 +127,7 @@ header {
     }
 }
 .about {
-    margin: 80px auto;
+    margin: 150px auto;
     .about-container {
         display: flex;
         justify-content: space-between;
@@ -177,10 +176,11 @@ header {
     }
 }
 .how-to-use {
-    margin: 80px auto;
+    margin: 200px auto;
     h1 {
         text-align: center;
         position: relative;
+        margin-bottom: 70px;
         &:before {
             content: 'How To Use';
             position: absolute;
@@ -217,6 +217,7 @@ header {
     h1 {
         text-align: center;
         position: relative;
+        margin-bottom: 70px;
         &:before {
             content: 'What Our Customer Say';
             position: absolute;
@@ -264,11 +265,12 @@ header {
     }
 }
 section.get-started {
-    margin: 80px auto;
+    padding: 100px;
+    margin-top: 100px;
     text-align: center;
+    background-color: #f6f9fd;
     h1 {
         margin:0;
-
     }
     p {
         font-size: 1.1rem;
@@ -283,7 +285,7 @@ section.get-started {
             font-weight: 600;
         }
         &.get-started {
-            padding: 10px;
+            padding: 15px;
             background: $orange;
             color: $white;
             align-items: center;
@@ -296,7 +298,7 @@ section.get-started {
         }
         &.watch-demo {
             border: 2px solid $white-orange;
-            padding: 8px;
+            padding: 13px;
             text-align: center;
             align-items: center;
             justify-content: center;
@@ -311,11 +313,10 @@ footer {
     padding: 10px;
     text-align: center;
     background: $orange;
-    margin-top: 30px;
     color: $white;
     font-weight: bold;
     a {
-        color: $black;
+        color: #444f60;
         text-decoration: none;
     }
 }
